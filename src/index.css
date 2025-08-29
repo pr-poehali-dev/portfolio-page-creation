@@ -97,5 +97,39 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: "Open Sans", sans-serif;
   }
 }
+
+@layer components {
+  .creative-gradient {
+    background: linear-gradient(-45deg, #ff6b6b, #4ecdc4, #dda0dd, #ff6b6b);
+    background-size: 400% 400%;
+    animation: gradient-shift 6s ease infinite;
+  }
+
+  .floating-element {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #dda0dd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .glass-effect {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .hover-glow:hover {
+    box-shadow: 0 0 30px rgba(255, 107, 107, 0.3);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap");
