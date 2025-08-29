@@ -82,16 +82,7 @@ const Index = () => {
               Исследуйте мою коллекцию креативных проектов, дизайн-решений и технических разработок. 
               Каждый PDF документ содержит детальную информацию о проектах.
             </p>
-            <div className="flex justify-center mb-8">
-              <div className="relative floating-element">
-                <img 
-                  src="/img/57fa5240-8f74-47b6-a61f-3ce1da5994aa.jpg" 
-                  alt="Creative Portfolio" 
-                  className="w-32 h-32 md:w-40 md:h-40 rounded-2xl shadow-2xl transform rotate-3 hover:rotate-0 transition-all duration-500 hover-glow"
-                />
-                <div className="absolute -inset-1 creative-gradient rounded-2xl opacity-30 -z-10"></div>
-              </div>
-            </div>
+
             <div className="flex flex-wrap justify-center gap-4">
               <Button className="creative-gradient hover:opacity-90 text-white border-none px-8 py-3 rounded-full text-lg font-semibold hover:scale-105 transition-all duration-300">
                 <Icon name="Download" size={20} className="mr-2" />
