@@ -18,14 +18,6 @@ const Index = () => {
       color: "from-[#FF6B6B] to-[#4ECDC4]"
     },
     {
-      id: 2,
-      title: "Дизайн Проекты",
-      description: "Коллекция лучших дизайн-решений и концепций",
-      category: "Дизайн",
-      pdfUrl: "https://www.adobe.com/support/products/enterprise/knowledgecenter/media/c4611_sample_explain.pdf",
-      color: "from-[#DDA0DD] to-[#FF6B6B]"
-    },
-    {
       id: 3,
       title: "Технические Проекты",
       description: "Разработка и реализация сложных технических решений",
