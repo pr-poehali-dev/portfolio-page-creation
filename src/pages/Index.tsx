@@ -154,35 +154,7 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Features Section */}
-        <section className="container mx-auto px-6 py-16">
-          <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-3xl font-bold mb-12 text-white">Особенности Портфолио</h3>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="animate-fade-in" style={{ animationDelay: '0ms' }}>
-                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-[#FF6B6B] to-[#4ECDC4] rounded-full flex items-center justify-center">
-                  <Icon name="Palette" size={24} className="text-white" />
-                </div>
-                <h4 className="text-xl font-semibold text-white mb-2">Креативный Дизайн</h4>
-                <p className="text-gray-300">Уникальные дизайн-решения и креативные подходы</p>
-              </div>
-              <div className="animate-fade-in" style={{ animationDelay: '200ms' }}>
-                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-[#4ECDC4] to-[#DDA0DD] rounded-full flex items-center justify-center">
-                  <Icon name="Share2" size={24} className="text-white" />
-                </div>
-                <h4 className="text-xl font-semibold text-white mb-2">Легкий Доступ</h4>
-                <p className="text-gray-300">Просто поделитесь ссылкой для просмотра портфолио</p>
-              </div>
-              <div className="animate-fade-in" style={{ animationDelay: '400ms' }}>
-                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-[#DDA0DD] to-[#FF6B6B] rounded-full flex items-center justify-center">
-                  <Icon name="Download" size={24} className="text-white" />
-                </div>
-                <h4 className="text-xl font-semibold text-white mb-2">PDF Формат</h4>
-                <p className="text-gray-300">Профессиональное представление в PDF формате</p>
-              </div>
-            </div>
-          </div>
-        </section>
+
       </div>
 
       {/* PDF Viewer Modal */}
